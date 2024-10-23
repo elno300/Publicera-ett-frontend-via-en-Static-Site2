@@ -12,7 +12,9 @@ function App() {
       .then((data) => {
         console.log(data);
       })
-  );
+  ),
+    [],
+    [count];
 
   return (
     <>
